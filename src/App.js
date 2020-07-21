@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import styles from './App.module.css';
+import Navbar from "./components/Navbar";
 
 class App extends Component{
 render(){
   return (
-    <Router>
       <div>
-        <h1>Loading</h1>
+        <Navbar />
       </div>
-    </Router>
   );
 }
 }
